@@ -1,0 +1,152 @@
+body {
+    background-color: #000000;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.heading {
+    color: #e8e8e8;
+    text-align: center;
+    font-weight: bold;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/*-----------------------------------------------------Containers-*/
+
+.callout-container {
+    height: 100vh;
+    background: url(../images/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.devider {
+    background-color: #e8e8e8;
+    width: 75%;
+    height: 2px;
+    border: 0;
+}
+
+.content-container {
+    padding-top: 15px;
+    padding-bottom: 75px;
+}
+
+.container-grey {
+    background-color: #3c3838;
+}
+
+.container-green {
+    background-color: #4bde4b;
+}
+
+/*-----------------------------------------------------Jumbotron-*/
+
+.jumbotron {
+    background-color: transparent;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.jumbotron h1 {
+    color: #4bde4b;
+    font-weight: bold;
+}
+
+.jumbotron .lead {
+    color: #ffffff;
+}
+
+/*-----------------------------------------------------Navbar-*/
+
+.navbar {
+    z-index: 1;
+    margin-bottom: 0;
+    top: 0;
+    left: 0;
+    border: 0;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+    color: #3c3838;
+}
+
+.navbar .navbar-brand:hover {
+    color: rgba(0, 0, 0, .2);
+}
+
+.navbar .nav-item .nav-link {
+    color: #3c3838;
+    font-weight: bold;
+}
+
+.navbar .nav-item .nav-link:hover {
+    color: rgba(0, 0, 0, .2);
+}
+
+.navbar .navbar-toggler .navbar-toggler-icon {
+    background-color: transparent;
+    border: 0;
+}
+
+/*-----------------------------------------------------GuestHouse-*/
+
+.guesthouse {
+    background: url("../images/guesthouse.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    border-radius: 10px;
+    min-height: 360px;
+}
+
+.guest {
+    color: #ffffff;
+    font-size: 1.2em;
+    padding-top: 60px;
+}
+
+/*-----------------------------------------------------Prices-*/
+
+.table-container p,h4 {
+    color: #ffffff;
+    margin-left: 25px;
+    margin-top: 25px;
+    font-size: 1.2em;
+}
+
+.table td, .table th {
+    color: #ffffff;
+}
