@@ -1,3 +1,5 @@
+/*-----------------------------------------------------General-*/
+
 body {
     background-color: #000000;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -15,6 +17,18 @@ body {
 
 .uppercase {
     text-transform: uppercase;
+}
+
+.text-block {
+    color: #ffffff;
+    font-size: 1.2em;
+    margin-bottom: 25px;
+}
+
+.picture {
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 /*-----------------------------------------------------Containers-*/
@@ -125,16 +139,14 @@ body {
     border: 0;
 }
 
-/*-----------------------------------------------------GuestHouse-*/
-
-.guesthouse {
-    border-radius: 10px;
+.social i {
+    font-size: 1.3em;
 }
 
+/*-----------------------------------------------------GuestHouse-*/
+
 .guest {
-    color: #ffffff;
-    font-size: 1.2em;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 /*-----------------------------------------------------Prices-*/
@@ -155,3 +167,10 @@ body {
     margin: auto;
     margin-top: 35px;
 }
+
+/*-----------------------------------------------------The Area-*/
+
+.area-text {
+    margin-top: 25px;
+}
+
