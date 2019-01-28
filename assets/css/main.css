@@ -174,3 +174,19 @@ body {
     margin-top: 25px;
 }
 
+/*-----------------------------------------------------Form-*/
+
+.center-form {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-form .btn {
+    margin-top: 15px;
+    font-size: 1.5em;
+}
+
+.center-form .form-control {
+    margin-top: 5px;
+}
