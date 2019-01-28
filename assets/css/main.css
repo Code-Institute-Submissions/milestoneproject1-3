@@ -185,8 +185,14 @@ body {
 .center-form .btn {
     margin-top: 15px;
     font-size: 1.5em;
+    text-align: center
 }
 
 .center-form .form-control {
-    margin-top: 5px;
+    margin: 5px;
+}
+
+.center-form label { 
+    float: left;
+    margin-left: 30px;
 }
