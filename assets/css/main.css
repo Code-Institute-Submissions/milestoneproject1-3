@@ -113,6 +113,17 @@ body {
     color: #ffffff;
 }
 
+.jumbotron .btn {
+    color: #ffffff;
+    background-color: #4bde4b;
+    border-color: #4bde4b;
+}
+
+.jumbotron .btn:hover {
+    background-color: #3ca43c;
+    border-color: #3ca43c;
+}
+
 /*-----------------------------------------------------Navbar-*/
 
 .navbar {
