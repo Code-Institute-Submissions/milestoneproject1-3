@@ -1,7 +1,6 @@
 /*-----------------------------------------------------General-*/
 
 body {
-    background-color: #000000;
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
@@ -20,7 +19,7 @@ body {
 }
 
 .text-block {
-    color: #ffffff;
+    color: #3c3838;
     font-size: 1.2em;
     margin-bottom: 25px;
 }
@@ -29,6 +28,10 @@ body {
     border-radius: 10px;
     margin-top: 25px;
     margin-bottom: 25px;
+}
+
+.grey-text {
+    color: #3c3838;
 }
 
 /*-----------------------------------------------------Containers-*/
@@ -54,7 +57,7 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .devider {
@@ -66,6 +69,13 @@ body {
 
 .devider-long {
     background-color: #e8e8e8;
+    width: 90%;
+    height: 1px;
+    border: 0;
+}
+
+.devider-long-grey {
+    background-color: #3c3838;
     width: 90%;
     height: 1px;
     border: 0;
@@ -112,8 +122,8 @@ body {
     left: 0;
     border: 0;
     width: 100%;
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .navbar .navbar-brand {
@@ -135,7 +145,8 @@ body {
 }
 
 .navbar .navbar-toggler .navbar-toggler-icon {
-    background-color: transparent;
+    background-color: #4bde4b;
+    border-radius: 5px;
     border: 0;
 }
 
@@ -147,19 +158,21 @@ body {
 
 .guest {
     margin-top: 80px;
+    color: #ffffff;
 }
 
 /*-----------------------------------------------------Prices-*/
 
 .table-container p,h4 {
-    color: #ffffff;
+    color: #3c3838;
     margin-left: 25px;
     margin-top: 25px;
     font-size: 1.2em;
 }
 
 .table td, .table th {
-    color: #ffffff;
+    color: #3c3838;
+    border-top-color: #3c3838;
 }
 
 .table {
@@ -172,6 +185,13 @@ body {
 
 .area-text {
     margin-top: 25px;
+    color: #ffffff;
+}
+
+/*-----------------------------------------------------Booking-*/
+
+.book {
+    margin-top: 80px;
 }
 
 /*-----------------------------------------------------Form-*/
@@ -195,4 +215,16 @@ body {
 .center-form label { 
     float: left;
     margin-left: 30px;
+}
+
+.fixed-bottom {
+    float: right;
+}
+
+/*-----------------------------------------------------Video-*/
+
+.embed-responsive {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
