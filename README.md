@@ -26,7 +26,7 @@ This project was build for study purposes only and not used as a new webpage.
 * Testing on mobile the H1 welcome text was behind the menu. - 
 Removed welcome text on mobile and add margin to the jumbotron text.
 * Testing on mobile the social links did not properly align in the footer. - Changed the margins and alignment.
-* Testing the forum allowed me to not properly formulate the email - Changed type to email.
+* Testing the forum allowed me to not properly formulate the email. - Changed type to email.
 ## Deployment
 This webpage is currently deployed on GitHub Pages using the *master branch* as source
 and is provided with HTTPS.
